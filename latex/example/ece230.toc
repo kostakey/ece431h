@@ -1,0 +1,10 @@
+\contentsline {section}{Introduction}{2}{section*.2}%
+\contentsline {subsection}{Programmable Logic Device (PLD)}{3}{section*.3}%
+\contentsline {section}{Device Overview}{4}{section*.4}%
+\contentsline {subsection}{Programmable Logic Array (PLA)}{4}{section*.5}%
+\contentsline {subsubsection}{Programmable Logic Array (PLA) vs. Programmable Array Logic (PAL)}{4}{section*.6}%
+\contentsline {subsection}{Fully Programmable Gate Array (FPGA)}{5}{section*.7}%
+\contentsline {subsection}{Programmable Logic Controller (PLC)}{7}{section*.8}%
+\contentsline {section}{Conclusion}{10}{section*.9}%
+\contentsline {subsection}{Personal Connection}{10}{section*.10}%
+\contentsline {section}{Works Cited}{12}{section*.11}%
