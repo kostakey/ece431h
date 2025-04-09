@@ -18,15 +18,14 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
+  \datalist[entry]{none/global//global/global}
     \entry{social-media-family}{article}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=1b3acceb9a4b7f55df6ccac507294471}{%
+        {{hash=1b3acceb9a4b7f55df6ccac507294471}{%
            family={ÜNAL},
            familyi={Ü\bibinitperiod},
            given={Selime},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
+           giveni={S\bibinitperiod}}}%
       }
       \strng{namehash}{1b3acceb9a4b7f55df6ccac507294471}
       \strng{fullhash}{1b3acceb9a4b7f55df6ccac507294471}
@@ -34,9 +33,8 @@
       \strng{authorbibnamehash}{1b3acceb9a4b7f55df6ccac507294471}
       \strng{authornamehash}{1b3acceb9a4b7f55df6ccac507294471}
       \strng{authorfullhash}{1b3acceb9a4b7f55df6ccac507294471}
-      \field{sortinit}{Ü}
-      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
-      \true{singletitle}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{21461961}
@@ -51,14 +49,11 @@
       \field{urldateera}{ce}
       \field{pages}{550\bibrangedash 578}
       \range{pages}{29}
-      \verb{eprint}
-      \verb Academic Search Complete
-      \endverb
       \verb{urlraw}
-      \verb search.ebscohost.com/login.aspx?direct=true&AuthType=ip,sso&db=a9h&AN=129236793&site=ehost-live&scope=site&custid=s8356098
+      \verb http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip,sso&db=a9h&AN=129236793&site=ehost-live&scope=site&custid=s8356098
       \endverb
       \verb{url}
-      \verb search.ebscohost.com/login.aspx?direct=true&AuthType=ip,sso&db=a9h&AN=129236793&site=ehost-live&scope=site&custid=s8356098
+      \verb http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip,sso&db=a9h&AN=129236793&site=ehost-live&scope=site&custid=s8356098
       \endverb
       \keyw{SOCIAL media,FAMILIES,VIRTUAL reality,ACQUISITION of data,aile iletişimi,facebook,family communication,Healthy communication,Sağlıklı iletişim,sanal iletişim,social media,sosyal medya,virtual communication,aile iletişimi,Sağlıklı iletişim,sanal iletişim,sosyal medya,FACEBOOK (Web resource)}
     \endentry

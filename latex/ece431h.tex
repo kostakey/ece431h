@@ -6,7 +6,11 @@
 \usepackage{graphicx}
 \usepackage{indentfirst}
 
-\usepackage[style=mla]{biblatex}
+% % % % % % % % % % % % 
+% Citation formatting %
+% % % % % % % % % % % % 
+
+\usepackage[style=ieee]{biblatex}
 \addbibresource{sources.bib}
 
 % % % % % % % % %
@@ -43,7 +47,7 @@
 \pagestyle{fancy} % change page style to fancy
 \fancyhf{} % clear header/footer
 \setlength{\headheight}{15pt}
-\fancyhead[L]{\runauthor}
+\fancyhead[L]{Quadras \& Sergakis}
 \fancyhead[C]{\runtitle}
 \fancyhead[R]{\rundate}
 \fancyfoot[C]{\thepage} % \fancyfoot[R]{\thepage}
@@ -75,9 +79,6 @@
             
             \vfill  
             
-            % A thesis presented for the degree of\\
-            % Doctor of Philosophy
-            
             \vspace{1cm}
 
             \includegraphics[width=0.4\textwidth]{resources/michigan-state-logo-png-transparent.png}
@@ -91,18 +92,21 @@
     
     \end{titlepage}
 
-    \setcounter{secnumdepth}{0} % removes section numbers
-    % \maketitle
-    
+
     % % % % % % % % % % %
     % Table of Contents %
     % % % % % % % % % % %
+
+    \setcounter{secnumdepth}{0} % removes section numbers
+    % \maketitle
     
     \tableofcontents
     
     \newpage
 
-    \section{Introduction}
+    \section{Overview \& Motivation}
+
+        \subsection{Vehicle Dynamics}
 
 
     \autocite{social-media-family}
