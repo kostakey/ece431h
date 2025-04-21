@@ -2370,7 +2370,9 @@
     <bcf:citekey order="6" intorder="1">MMM</bcf:citekey>
     <bcf:citekey order="7" intorder="1">app10124326</bcf:citekey>
     <bcf:citekey order="8" intorder="1">inproceedings</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">Milliken_Research_Associates</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">pacejka</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">Milliken_Research_Associates</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">Milliken_Research_Associates</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

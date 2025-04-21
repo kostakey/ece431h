@@ -174,9 +174,48 @@
       \verb 10.1109/ACC.2010.5531319
       \endverb
     \endentry
-    \entry{Milliken_Research_Associates}{misc}{}
+    \entry{pacejka}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6d38eb6e4e29a71cff1337edb2c4a3cd}{%
+           family={Karimshoushtari},
+           familyi={K\bibinitperiod},
+           given={Milad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ded05376ab2f861958f1d05b858b40de}{%
+           family={Novara},
+           familyi={N\bibinitperiod},
+           given={Carlo},
+           giveni={C\bibinitperiod}}}%
+        {{hash=83795bdd686e90cec8ae333ad84d98b8}{%
+           family={Tango},
+           familyi={T\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{433b1bbfc6ebbc066f6b2def1f7b9d17}
+      \strng{fullhash}{e000d1fc4f1e96214ecdd973f6d422d6}
+      \strng{bibnamehash}{e000d1fc4f1e96214ecdd973f6d422d6}
+      \strng{authorbibnamehash}{e000d1fc4f1e96214ecdd973f6d422d6}
+      \strng{authornamehash}{433b1bbfc6ebbc066f6b2def1f7b9d17}
+      \strng{authorfullhash}{e000d1fc4f1e96214ecdd973f6d422d6}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{month}{06}
+      \field{title}{How Imitation Learning and Human Factors Can Be Combined in a Model Predictive Control Algorithm for Adaptive Motion Planning and Control}
+      \field{volume}{21}
+      \field{year}{2021}
+      \field{pages}{4012}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s21124012
+      \endverb
+    \endentry
+    \entry{Milliken_Research_Associates}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{journaltitle}{Milliken Research Associates, inc.}
       \verb{urlraw}
       \verb https://www.millikenresearch.com/mmmoutput.html

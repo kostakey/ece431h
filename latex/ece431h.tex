@@ -130,7 +130,7 @@
         \begin{center}
             \vspace{0.5cm}
 
-            \includegraphics[width=0.5\textwidth]{resources/Defining-of-control-Claude-Rouelle-Applied-VD-seminar.png}
+            \includegraphics[width=0.7\textwidth]{resources/Defining-of-control-Claude-Rouelle-Applied-VD-seminar.png}
 
             \vspace{0.5cm}
 
@@ -142,7 +142,7 @@
         \begin{center}
             \vspace{0.5cm}
 
-            \includegraphics[width=0.5\textwidth]{resources/Defining-of-stability-Claude-Rouelle-Applied-VD-seminar.png}
+            \includegraphics[width=0.7\textwidth]{resources/Defining-of-stability-Claude-Rouelle-Applied-VD-seminar.png}
 
             \vspace{0.5cm}
 
@@ -171,7 +171,7 @@
         \begin{center}
             \vspace{0.5cm}
 
-            \includegraphics[width=0.5\textwidth]{resources/Lateral-tire-deformation.png}
+            \includegraphics[width=0.8\textwidth]{resources/Lateral-tire-deformation.png}
 
             \vspace{0.5cm}
 
@@ -180,10 +180,34 @@
         
         \end{center}
 
+        \begin{center}
+            \vspace{0.5cm}
+
+            \includegraphics[width=1\textwidth]{resources/Pacejkas-tire-model.png}
+
+            \vspace{0.5cm}
+
+            \textbf{Figure 5: Example Pacejka Tire Model} \autocite{pacejka}
+            \label{pjka}
+        
+        \end{center}
+
+        \begin{center}
+            \vspace{0.5cm}
+
+            \includegraphics[width=0.5\textwidth]{resources/tn_MMM807.jpg}
+
+            \vspace{0.5cm}
+
+            \textbf{Figure 6: MMM} \autocite{Milliken_Research_Associates}
+            \label{MMMa}
+        
+        \end{center}
+
         A common way to observe/determine the limits of a vehicle is through a Yaw Moment Diagram, or the MRA Moment Method 
-        (MMM) \autocite{Milliken_Research_Associates}. A critical component of the Yaw Moment Diagram would be the quantification of the forces necessary to hold 
+        (MMM) \hyperref[MMMa]{[Figure 6]} \autocite{Milliken_Research_Associates}. A critical component of the Yaw Moment Diagram would be the quantification of the forces necessary to hold 
         a vehicle through a turn. As shown in  \hyperref[tire_deformation_2]{figure 4}, a primitive to determining the lateral force of a tire is the slip angle. 
-        Pacejka’s formula can display the relationship between slip angle and lateral tire force as shown in figure XX. Ultimately, 
+        Pacejka’s formula can display the relationship between slip angle and lateral tire force as shown in \hyperref[pjka]{figure 5}. Ultimately, 
         the goal is to determine the limits of the vehicle to prevent drivers from reaching the point of no return; a loss of 
         stability, leading to control being removed from the driver.
 
@@ -199,7 +223,12 @@
         angle in real-time using accessible components, this solution offers a cost-effective and scalable method to improve vehicle 
         safety, performance, and driver confidence across a wide range of driving conditions. 
 
-
+    \section{System Level Design}
+        \subsection{Microcontroller (Teensy 4.0)}
+        \subsection{Optical Sensor (PAW3515DB)}
+        \subsection{Inertial Measurement Unit (BNO055)}
+        \subsection{RGB LED}
+    \section{Software Design}
     % % % % % % % % %
     % Bibliography  %
     % % % % % % % % %
