@@ -19,43 +19,171 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{social-media-family}{article}{}
+    \entry{Jacobson_2016}{misc}{}
       \name{author}{1}{}{%
-        {{hash=1b3acceb9a4b7f55df6ccac507294471}{%
-           family={ÜNAL},
-           familyi={Ü\bibinitperiod},
-           given={Selime},
-           giveni={S\bibinitperiod}}}%
+        {{hash=7ab6669a76234af1b502b98d49d304f4}{%
+           family={Jacobson},
+           familyi={J\bibinitperiod},
+           given={Bengt},
+           giveni={B\bibinitperiod}}}%
       }
-      \strng{namehash}{1b3acceb9a4b7f55df6ccac507294471}
-      \strng{fullhash}{1b3acceb9a4b7f55df6ccac507294471}
-      \strng{bibnamehash}{1b3acceb9a4b7f55df6ccac507294471}
-      \strng{authorbibnamehash}{1b3acceb9a4b7f55df6ccac507294471}
-      \strng{authornamehash}{1b3acceb9a4b7f55df6ccac507294471}
-      \strng{authorfullhash}{1b3acceb9a4b7f55df6ccac507294471}
+      \list{publisher}{1}{%
+        {Chalmers University of Technology}%
+      }
+      \strng{namehash}{7ab6669a76234af1b502b98d49d304f4}
+      \strng{fullhash}{7ab6669a76234af1b502b98d49d304f4}
+      \strng{bibnamehash}{7ab6669a76234af1b502b98d49d304f4}
+      \strng{authorbibnamehash}{7ab6669a76234af1b502b98d49d304f4}
+      \strng{authornamehash}{7ab6669a76234af1b502b98d49d304f4}
+      \strng{authorfullhash}{7ab6669a76234af1b502b98d49d304f4}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{21461961}
-      \field{journaltitle}{International Journal of Eurasia Social Sciences / Uluslararasi Avrasya Sosyal Bilimler Dergisi}
-      \field{number}{31}
-      \field{title}{The Effect of Social Media Ise to the Time Spent With Family Members}
-      \field{urlday}{28}
-      \field{urlmonth}{2}
-      \field{urlyear}{2018}
-      \field{volume}{9}
-      \field{year}{2018}
-      \field{urldateera}{ce}
-      \field{pages}{550\bibrangedash 578}
-      \range{pages}{29}
+      \field{journaltitle}{Chalmers}
+      \field{title}{Vehicle Dynamics}
+      \field{year}{2016}
       \verb{urlraw}
-      \verb http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip,sso&db=a9h&AN=129236793&site=ehost-live&scope=site&custid=s8356098
+      \verb https://publications.lib.chalmers.se/records/fulltext/244369/244369.pdf
       \endverb
       \verb{url}
-      \verb http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip,sso&db=a9h&AN=129236793&site=ehost-live&scope=site&custid=s8356098
+      \verb https://publications.lib.chalmers.se/records/fulltext/244369/244369.pdf
       \endverb
-      \keyw{SOCIAL media,FAMILIES,VIRTUAL reality,ACQUISITION of data,aile iletişimi,facebook,family communication,Healthy communication,Sağlıklı iletişim,sanal iletişim,social media,sosyal medya,virtual communication,aile iletişimi,Sağlıklı iletişim,sanal iletişim,sosyal medya,FACEBOOK (Web resource)}
+    \endentry
+    \entry{Racelogic_2015}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{journaltitle}{Racelogic}
+      \field{month}{6}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://www.racelogic.co.uk/_downloads/vbox/Application_Notes/Slip%20Angle%20Explained.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.racelogic.co.uk/_downloads/vbox/Application_Notes/Slip%20Angle%20Explained.pdf
+      \endverb
+    \endentry
+    \entry{MMM}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0f30c492f1c07ecfa45be939c9e62eec}{%
+           family={Szűcs},
+           familyi={S\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=1f431505c0fd81cca67f34037244b95a}{%
+           family={Bári},
+           familyi={B\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{db43f5e8cce62fc69b342821113733f0}
+      \strng{fullhash}{db43f5e8cce62fc69b342821113733f0}
+      \strng{bibnamehash}{db43f5e8cce62fc69b342821113733f0}
+      \strng{authorbibnamehash}{db43f5e8cce62fc69b342821113733f0}
+      \strng{authornamehash}{db43f5e8cce62fc69b342821113733f0}
+      \strng{authorfullhash}{db43f5e8cce62fc69b342821113733f0}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IOP Conference Series: Materials Science and Engineering}
+      \field{month}{08}
+      \field{title}{Generating MMM diagram for defining the safety margin of self driving cars}
+      \field{volume}{393}
+      \field{year}{2018}
+      \field{pages}{012128}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1757-899X/393/1/012128
+      \endverb
+    \endentry
+    \entry{app10124326}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4082303d2aed6521dd9c77ec7abdf395}{%
+           family={Pelc},
+           familyi={P\bibinitperiod},
+           given={Józef},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4082303d2aed6521dd9c77ec7abdf395}
+      \strng{fullhash}{4082303d2aed6521dd9c77ec7abdf395}
+      \strng{bibnamehash}{4082303d2aed6521dd9c77ec7abdf395}
+      \strng{authorbibnamehash}{4082303d2aed6521dd9c77ec7abdf395}
+      \strng{authornamehash}{4082303d2aed6521dd9c77ec7abdf395}
+      \strng{authorfullhash}{4082303d2aed6521dd9c77ec7abdf395}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents a method for modeling of pneumatic bias tire axisymmetric deformation. A previously developed model of all-steel radial tire was expanded to include the non-linear stress–strain relationship for textile cord and its thermal shrinkage. Variable cord density and cord angle in the cord-rubber bias tire composite are the major challenges in pneumatic tire modeling. The variabilities result from the tire formation process, and they were taken into account in the model. Mechanical properties of the composite were described using a technique of orthotropic reinforcement overlaying onto isotropic rubber elements, treated as a hyperelastic incompressible material. Due to large displacements, the non-linear problem was solved using total Lagrangian formulation. The model uses MSC.Marc code with implemented user subroutines, allowing for the description of the tire specific properties. The efficiency of the model was verified in the simulation of mounting and inflation of an actual bias truck tire. The shrinkage negligence effect on cord forces and on displacements was examined. A method of investigating the influence of variation of cord angle in green body plies on tire apparent lateral stiffness was proposed. The created model is stabile, ensuring convergent solutions even with large deformations. Inflated tire sizes predicted by the model are consistent with the actual tire sizes. The distinguishing feature of the developed model from other ones is the exact determination of the cord angles in a vulcanized tire and the possibility of simulation with the tire mounting on the rim and with cord thermal shrinkage taken into account. The model may be an effective tool in bias tire design.}
+      \field{issn}{2076-3417}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{12}
+      \field{title}{Bias Truck Tire Deformation Analysis with Finite Element Modeling}
+      \field{volume}{10}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.3390/app10124326
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2076-3417/10/12/4326
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2076-3417/10/12/4326
+      \endverb
+    \endentry
+    \entry{inproceedings}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=35270608b026b3cd6ece7487ab8af23c}{%
+           family={Doumiati},
+           familyi={D\bibinitperiod},
+           given={Moustapha},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c8f60e11cd99e660c1b0df0528835631}{%
+           family={Victorino},
+           familyi={V\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=da2b32b02e79b5d1000b77fc91a1fa8c}{%
+           family={Charara},
+           familyi={C\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2693a41ad89f66e5ac68d755dd09f7c2}{%
+           family={Lechner},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca9c21bc8215d9c2e0f3cf863ede0eb6}
+      \strng{fullhash}{169f8bdf54c728a4fee4ddfc4cabb7c6}
+      \strng{bibnamehash}{169f8bdf54c728a4fee4ddfc4cabb7c6}
+      \strng{authorbibnamehash}{169f8bdf54c728a4fee4ddfc4cabb7c6}
+      \strng{authornamehash}{ca9c21bc8215d9c2e0f3cf863ede0eb6}
+      \strng{authorfullhash}{169f8bdf54c728a4fee4ddfc4cabb7c6}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{08}
+      \field{title}{A method to estimate the lateral tire force and the sideslip angle of a vehicle: Experimental validation}
+      \field{year}{2010}
+      \field{pages}{6936\bibrangedash 6942}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ACC.2010.5531319
+      \endverb
+    \endentry
+    \entry{Milliken_Research_Associates}{misc}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{journaltitle}{Milliken Research Associates, inc.}
+      \verb{urlraw}
+      \verb https://www.millikenresearch.com/mmmoutput.html
+      \endverb
+      \verb{url}
+      \verb https://www.millikenresearch.com/mmmoutput.html
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

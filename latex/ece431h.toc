@@ -1,3 +1,4 @@
-\contentsline {section}{Overview \& Motivation}{2}{section*.2}%
+\contentsline {section}{Introduction}{2}{section*.2}%
 \contentsline {subsection}{Vehicle Dynamics}{2}{section*.3}%
-\contentsline {section}{Works Cited}{3}{section*.4}%
+\contentsline {subsection}{Overview \& Motivation}{4}{section*.4}%
+\contentsline {section}{Works Cited}{5}{section*.5}%
