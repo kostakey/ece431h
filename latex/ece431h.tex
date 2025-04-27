@@ -34,7 +34,7 @@
 \author{Nathan Quadras \& Kosta Sergakis}
 % \author1{Quadras \& Sergakis}
 % \date{\today}
-\date{April 30, 2025}
+\date{April 28, 2025}
 \makeatletter
 \let\runauthor\@author
 \let\runtitle\@title
@@ -82,7 +82,7 @@
             
             \vspace{1cm}
 
-            \includegraphics[width=0.4\textwidth]{resources/michigan-state-logo-png-transparent.png}
+            \includegraphics[width=0.3\textwidth]{resources/michigan-state-logo-png-transparent.png}
                 
             Electrical and Computer Engineering\\
             Michigan State University\\
@@ -123,7 +123,7 @@
         
         \subsection{Vehicle Dynamics}
 
-        Performance driving, autonomous driving and regular commuter driving all require the same characteristic: 
+        Performance driving, autonomous driving and commuter driving all require the same characteristic: 
         control. Controllable vehicles are what makes rapid maneuvers possible. On the other hand, the required 
         motion must be stable to maintain directional stability under disturbances \autocite{MMM}. 
 
@@ -156,17 +156,17 @@
         because it enables the concepts mentioned above. In other words, slip angle determines vehicle maneuverability. If 
         slip angle is observed, various states of the vehicle can be determined. 
 
-        \begin{center}
-            \vspace{0.5cm}
+        % \begin{center}
+        %     \vspace{0.5cm}
 
-            \includegraphics[width=0.5\textwidth]{resources/applsci-10-04326-g009-550.jpg}
+        %     \includegraphics[width=0.5\textwidth]{resources/applsci-10-04326-g009-550.jpg}
 
-            \vspace{0.5cm}
+        %     \vspace{0.5cm}
 
-            \textbf{Figure 3: Tire Deformation} \autocite{app10124326}
-            \label{tire_deformation_1}
+        %     \textbf{Figure 3: Tire Deformation} \autocite{app10124326}
+        %     \label{tire_deformation_1}
         
-        \end{center}
+        % \end{center}
 
         \begin{center}
             \vspace{0.5cm}
@@ -175,7 +175,7 @@
 
             \vspace{0.5cm}
 
-            \textbf{Figure 4: Tire Deformation} \autocite{inproceedings}
+            \textbf{Figure 3: Tire Deformation} \autocite{inproceedings}
             \label{tire_deformation_2}
         
         \end{center}
@@ -187,7 +187,7 @@
 
             \vspace{0.5cm}
 
-            \textbf{Figure 5: Example Pacejka Tire Model} \autocite{pacejka}
+            \textbf{Figure 4: Example Pacejka Tire Model} \autocite{pacejka}
             \label{pjka}
         
         \end{center}
@@ -199,15 +199,15 @@
 
             \vspace{0.5cm}
 
-            \textbf{Figure 6: MMM} \autocite{Milliken_Research_Associates}
+            \textbf{Figure 5: MMM} \autocite{Milliken_Research_Associates}
             \label{MMMa}
         
         \end{center}
 
         A common way to observe/determine the limits of a vehicle is through a Yaw Moment Diagram, or the MRA Moment Method 
-        (MMM) \hyperref[MMMa]{[Figure 6]} \autocite{Milliken_Research_Associates}. A critical component of the Yaw Moment Diagram would be the quantification of the forces necessary to hold 
-        a vehicle through a turn. As shown in  \hyperref[tire_deformation_2]{figure 4}, a primitive to determining the lateral force of a tire is the slip angle. 
-        Pacejka’s formula can display the relationship between slip angle and lateral tire force as shown in \hyperref[pjka]{figure 5}. Ultimately, 
+        (MMM) \hyperref[MMMa]{[Figure 5]} \autocite{Milliken_Research_Associates}. A critical component of the Yaw Moment Diagram would be the quantification of the forces necessary to hold 
+        a vehicle through a turn. As shown in  \hyperref[tire_deformation_2]{Figure 3}, a primitive to determining the lateral force of a tire is the slip angle. 
+        Pacejka’s formula can display the relationship between slip angle and lateral tire force as shown in \hyperref[pjka]{Figure 4}. Ultimately, 
         the goal is to determine the limits of the vehicle to prevent drivers from reaching the point of no return; a loss of 
         stability, leading to control being removed from the driver.
 
@@ -224,11 +224,105 @@
         safety, performance, and driver confidence across a wide range of driving conditions. 
 
     \section{System Level Design}
+        
+        \begin{center}
+            \vspace{0.5cm}
+
+            \includegraphics[width=1\textwidth]{resources/Screenshot 2025-04-27 181552.png}
+
+            \vspace{0.5cm}
+
+            \textbf{Figure 6: Hardware Diagram}
+            \label{hd}
+        
+        \end{center}
+
+        % words and text
+
+        % \begin{center}
+        %     \vspace{0.5cm}
+
+        %     \includegraphics[width=0.5\textwidth]{resources/tn_MMM807.jpg}
+
+        %     \vspace{0.5cm}
+
+        %     \textbf{Figure 7: Intended Application}
+        %     \label{ia}
+        
+        % \end{center}
+        
         \subsection{Microcontroller (Teensy 4.0)}
+
+            The Microcontroller Development Board selected for this project is the Teensy 4.0, which is powered by NXP’s i.MX RT1062 
+            microcontroller. This device boasts an Arm Cortex‑M7 core running at 600 MHz, one of the fastest Cortex‑M MCUs available. 
+            The core is accompanied by a hardware floating‑point unit (FPU) and digital signal processing (DSP) extensions, making it 
+            ideally suited for real‑time control, signal processing, and multimedia applications. 
+
+            The Teensy is equipped with 1984K Flash, 1024K RAM (512K tightly coupled), 1K EEPROM (emulated) and supports a rich set of 
+            peripherals. It has 40 of these digital I/O pins with 14 analog input pins with up to 12-bit resolution, and 31 digital pins 
+            with PWM capabilities. It supports standard communication interfaces like I2C, UART, and SPI, along with more advanced options 
+            such as USB 2.0 OTG, CAN, and Ethernet. It also includes general-purpose timers, using the inbuilt Systick on the core, RTC, and 
+            a watchdog timer which enables easy use of interrupts, time-based operations, date-time access, and system monitoring, offering 
+            flexibility for a wide range of embedded system designs.
+
+            Programming the teensy can be done through a variety of mediums including the Arduino IDE (via the Teensyduino plug‑in) or in 
+            PlatformIO, providing a rapid, user‑friendly workflow. For in‑depth development and troubleshooting, the i.MX RT1062 implements 
+            ARM CoreSight with SWD/JTAG access. Additionally, its Nested Vectored Interrupt Controller (NVIC) supports deterministic and 
+            priority-based interrupt handling, allowing for example, slip angle computations at 1 kHz to interrupt lower priority routines with 
+            negligible overhead, while optional JTAG pads enable real‑time trace capture and hardware breakpoints for advanced optimization. 
+
+            Together, these capabilities make the Teensy 4.0 and, by extension, the i.MX RT1062 an exceptionally powerful yet compact platform 
+            for our slip‑angle detection system and for embedded systems development in general. 
+
         \subsection{Optical Sensor (PAW3515DB)}
+            
+            \subsubsection{USB to UART (FT232R)}
+                FTDI is pretty sick
+
         \subsection{Inertial Measurement Unit (BNO055)}
-        \subsection{RGB LED}
+
+            The BNO055 is a compact, all-in-one 9-axis inertial measurement unit (IMU) developed by Bosch that combines combining a 3-axis 16-bit 
+            gyroscope, a 3-axis 14-bit accelerometer, and a 3-axis full performance magnetometer, along with a built-in ARM Cortex-M0+ processor 
+            for onboard sensor fusion. The sensor supports various power management modes (normal, low power, suspend), programmable acceleration 
+            and gyroscope ranges (±2g to ±16g and ±125°/s to ±2000°/s respectively), and is capable of motion-triggered interrupt generation. 
+            Unlike raw IMUs that require external processing, the BNO055 outputs fully fused orientation data including quaternions, Euler angles 
+            (roll, pitch, yaw), linear acceleration, gravity vectors, and heading. With its ability to provide accurate and drift-compensated yaw 
+            angle measurements, and easy interfacing through I2C or UART, the BNO055 is well-suited for determining the heading direction of a vehicle. 
+
+        \subsection{RGB LED (NeoPixel 5050)}
+
+            Here an RGB can be utilized as a status indicator for the device. When the system is powered on and functioning normally, the LED displays 
+            green, signaling active and healthy operation. If an error is detected, such as communication failure or sensor malfunction, the LED switches 
+            to red to alert the user. When the device is in an idle or powered-off state, the LED remains off, conserving power and clearly indicating inactivity. 
+
+            ALSO TALK ABOUT RUNTIME STUFF
+
     \section{Software Design}
+
+        \begin{center}
+            \vspace{0.5cm}
+
+            \includegraphics[width=1\textwidth]{resources/softwarediagram.png}
+
+            \vspace{0.5cm}
+
+            \textbf{Figure 7: High-Level Software Design}
+            \label{sd}
+        
+        \end{center}
+
+        On powering up the system, the firmware first configures the microcontroller’s peripheral interfaces which includes the CAN host, GPIO inputs for 
+        the PAW3515DB, I²C for the BNO055, the CAN transceiver, and the RGB status LED, then performs an error check. Any failure routes execution back to an 
+        error‑recovery loop until the fault is cleared. Once the interfaces pass, the program configures the sensors, loading their operating modes and verifying 
+        that both the optical‑flow unit and the IMU return valid data. Next, the program enters a continuous while‑loop in which the microcontroller repeatedly 
+        acquires ground motion vectors ($\Delta$X, $\Delta$Y) from the PAW3515DB and yaw orientation data from the BNO055, and then proceeds to compute the instantaneous slip 
+        angle by subtracting vehicle heading from the optical motion direction, and broadcasts the result onto the vehicle’s CAN bus for telemetry. An inactivity 
+        timer monitors motion, where if no meaningful movement is detected for five seconds, the system exits the loop and executes a clean shutdown sequence. 
+        Throughout, any peripheral or sensor error immediately diverts execution back to the recovery branch, ensuring robust fault handling without compromising 
+        real‑time operation.
+    
+    \section{Conclusion}
+    
     % % % % % % % % %
     % Bibliography  %
     % % % % % % % % %

@@ -97,41 +97,6 @@
       \verb 10.1088/1757-899X/393/1/012128
       \endverb
     \endentry
-    \entry{app10124326}{article}{}
-      \name{author}{1}{}{%
-        {{hash=4082303d2aed6521dd9c77ec7abdf395}{%
-           family={Pelc},
-           familyi={P\bibinitperiod},
-           given={Józef},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{4082303d2aed6521dd9c77ec7abdf395}
-      \strng{fullhash}{4082303d2aed6521dd9c77ec7abdf395}
-      \strng{bibnamehash}{4082303d2aed6521dd9c77ec7abdf395}
-      \strng{authorbibnamehash}{4082303d2aed6521dd9c77ec7abdf395}
-      \strng{authornamehash}{4082303d2aed6521dd9c77ec7abdf395}
-      \strng{authorfullhash}{4082303d2aed6521dd9c77ec7abdf395}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This paper presents a method for modeling of pneumatic bias tire axisymmetric deformation. A previously developed model of all-steel radial tire was expanded to include the non-linear stress–strain relationship for textile cord and its thermal shrinkage. Variable cord density and cord angle in the cord-rubber bias tire composite are the major challenges in pneumatic tire modeling. The variabilities result from the tire formation process, and they were taken into account in the model. Mechanical properties of the composite were described using a technique of orthotropic reinforcement overlaying onto isotropic rubber elements, treated as a hyperelastic incompressible material. Due to large displacements, the non-linear problem was solved using total Lagrangian formulation. The model uses MSC.Marc code with implemented user subroutines, allowing for the description of the tire specific properties. The efficiency of the model was verified in the simulation of mounting and inflation of an actual bias truck tire. The shrinkage negligence effect on cord forces and on displacements was examined. A method of investigating the influence of variation of cord angle in green body plies on tire apparent lateral stiffness was proposed. The created model is stabile, ensuring convergent solutions even with large deformations. Inflated tire sizes predicted by the model are consistent with the actual tire sizes. The distinguishing feature of the developed model from other ones is the exact determination of the cord angles in a vulcanized tire and the possibility of simulation with the tire mounting on the rim and with cord thermal shrinkage taken into account. The model may be an effective tool in bias tire design.}
-      \field{issn}{2076-3417}
-      \field{journaltitle}{Applied Sciences}
-      \field{number}{12}
-      \field{title}{Bias Truck Tire Deformation Analysis with Finite Element Modeling}
-      \field{volume}{10}
-      \field{year}{2020}
-      \verb{doi}
-      \verb 10.3390/app10124326
-      \endverb
-      \verb{urlraw}
-      \verb https://www.mdpi.com/2076-3417/10/12/4326
-      \endverb
-      \verb{url}
-      \verb https://www.mdpi.com/2076-3417/10/12/4326
-      \endverb
-    \endentry
     \entry{inproceedings}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=35270608b026b3cd6ece7487ab8af23c}{%
@@ -155,14 +120,14 @@
            given={Daniel},
            giveni={D\bibinitperiod}}}%
       }
-      \strng{namehash}{ca9c21bc8215d9c2e0f3cf863ede0eb6}
+      \strng{namehash}{c2f1ab9a2f178c6b7dab761ba1c3a7b2}
       \strng{fullhash}{169f8bdf54c728a4fee4ddfc4cabb7c6}
       \strng{bibnamehash}{169f8bdf54c728a4fee4ddfc4cabb7c6}
       \strng{authorbibnamehash}{169f8bdf54c728a4fee4ddfc4cabb7c6}
-      \strng{authornamehash}{ca9c21bc8215d9c2e0f3cf863ede0eb6}
+      \strng{authornamehash}{c2f1ab9a2f178c6b7dab761ba1c3a7b2}
       \strng{authorfullhash}{169f8bdf54c728a4fee4ddfc4cabb7c6}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{08}
@@ -192,14 +157,14 @@
            given={Fabio},
            giveni={F\bibinitperiod}}}%
       }
-      \strng{namehash}{433b1bbfc6ebbc066f6b2def1f7b9d17}
+      \strng{namehash}{e000d1fc4f1e96214ecdd973f6d422d6}
       \strng{fullhash}{e000d1fc4f1e96214ecdd973f6d422d6}
       \strng{bibnamehash}{e000d1fc4f1e96214ecdd973f6d422d6}
       \strng{authorbibnamehash}{e000d1fc4f1e96214ecdd973f6d422d6}
-      \strng{authornamehash}{433b1bbfc6ebbc066f6b2def1f7b9d17}
+      \strng{authornamehash}{e000d1fc4f1e96214ecdd973f6d422d6}
       \strng{authorfullhash}{e000d1fc4f1e96214ecdd973f6d422d6}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Sensors}
@@ -214,8 +179,8 @@
       \endverb
     \endentry
     \entry{Milliken_Research_Associates}{misc}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{journaltitle}{Milliken Research Associates, inc.}
       \verb{urlraw}
       \verb https://www.millikenresearch.com/mmmoutput.html
