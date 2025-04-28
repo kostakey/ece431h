@@ -2,11 +2,20 @@
 \contentsline {subsection}{Vehicle Dynamics}{2}{section*.3}%
 \contentsline {subsection}{Overview \& Motivation}{5}{section*.4}%
 \contentsline {section}{System Level Design}{5}{section*.5}%
-\contentsline {subsection}{Microcontroller (Teensy 4.0)}{5}{section*.6}%
-\contentsline {subsection}{Optical Sensor (PAW3515DB)}{6}{section*.7}%
-\contentsline {subsubsection}{USB to UART (FT232R)}{6}{section*.8}%
-\contentsline {subsection}{Inertial Measurement Unit (BNO055)}{6}{section*.9}%
-\contentsline {subsection}{RGB LED (NeoPixel 5050)}{7}{section*.10}%
-\contentsline {section}{Software Design}{7}{section*.11}%
-\contentsline {section}{Conclusion}{8}{section*.12}%
-\contentsline {section}{Works Cited}{9}{section*.13}%
+\contentsline {subsection}{Microcontroller (Teensy 4.0)}{6}{section*.6}%
+\contentsline {subsection}{Optical Sensor (PAW3515DB)}{7}{section*.7}%
+\contentsline {subsubsection}{USB to UART (FT232R)}{8}{section*.8}%
+\contentsline {subsection}{Inertial Measurement Unit (BNO055)}{9}{section*.9}%
+\contentsline {subsection}{RGB LED (NeoPixel 5050)}{9}{section*.10}%
+\contentsline {subsection}{CAN Transceiver (SN65HVD233DR)}{9}{section*.11}%
+\contentsline {section}{Software Design}{10}{section*.12}%
+\contentsline {subsection}{Peripheral Initialization Block}{11}{section*.13}%
+\contentsline {subsection}{Sensor Initialization Block}{11}{section*.14}%
+\contentsline {subsection}{Main Operational Loop}{11}{section*.15}%
+\contentsline {subsubsection}{Sensor Acquisition}{11}{section*.16}%
+\contentsline {subsubsection}{Slip Angle Computation}{11}{section*.17}%
+\contentsline {subsubsection}{Data Transmission}{12}{section*.18}%
+\contentsline {subsubsection}{Real-Time System Management}{12}{section*.19}%
+\contentsline {subsubsection}{Idle Detection and Power Management}{12}{section*.20}%
+\contentsline {section}{Contributions}{12}{section*.21}%
+\contentsline {section}{Works Cited}{13}{section*.22}%

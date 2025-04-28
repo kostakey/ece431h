@@ -752,6 +752,11 @@ INPUT ./resources/tn_MMM807.jpg
 INPUT resources/tn_MMM807.jpg
 INPUT ./resources/tn_MMM807.jpg
 INPUT ./resources/tn_MMM807.jpg
+INPUT ./resources/image.png
+INPUT ./resources/image.png
+INPUT resources/image.png
+INPUT ./resources/image.png
+INPUT ./resources/image.png
 INPUT ./resources/Screenshot 2025-04-27 181552.png
 INPUT ./resources/Screenshot 2025-04-27 181552.png
 INPUT resources/Screenshot 2025-04-27 181552.png

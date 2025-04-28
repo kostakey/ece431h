@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'ece431h.blg'
-[55] biber:340> INFO - === Sun Apr 27, 2025, 11:03:48
-[68] Biber.pm:418> INFO - Reading 'ece431h.bcf'
-[110] Biber.pm:972> INFO - Found 6 citekeys in bib section 0
+[55] biber:340> INFO - === Mon Apr 28, 2025, 10:47:48
+[64] Biber.pm:418> INFO - Reading 'ece431h.bcf'
+[110] Biber.pm:972> INFO - Found 10 citekeys in bib section 0
 [119] Biber.pm:4383> INFO - Processing section 0
-[128] Biber.pm:4574> INFO - Looking for bibtex file 'sources.bib' for section 0
-[129] bibtex.pm:1713> INFO - LaTeX decoding ...
-[135] bibtex.pm:1518> INFO - Found BibTeX data source 'sources.bib'
-[177] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[177] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[177] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[177] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[183] bbl.pm:654> INFO - Writing 'ece431h.bbl' with encoding 'UTF-8'
-[185] bbl.pm:757> INFO - Output to ece431h.bbl
-[186] Biber.pm:130> WARN - legacy month field 'Jun' in entry 'Racelogic_2015' is not an integer - this will probably not sort properly.
-[186] Biber.pm:132> INFO - WARNINGS: 1
+[126] Biber.pm:4574> INFO - Looking for bibtex file 'sources.bib' for section 0
+[128] bibtex.pm:1713> INFO - LaTeX decoding ...
+[134] bibtex.pm:1518> INFO - Found BibTeX data source 'sources.bib'
+[178] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[178] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[178] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[178] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[184] bbl.pm:654> INFO - Writing 'ece431h.bbl' with encoding 'UTF-8'
+[187] bbl.pm:757> INFO - Output to ece431h.bbl
+[188] Biber.pm:130> WARN - legacy month field 'Jun' in entry 'Racelogic_2015' is not an integer - this will probably not sort properly.
+[188] Biber.pm:132> INFO - WARNINGS: 1

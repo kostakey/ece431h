@@ -2358,12 +2358,23 @@
     <bcf:citekey order="8">pacejka</bcf:citekey>
     <bcf:citekey order="9">Milliken_Research_Associates</bcf:citekey>
     <bcf:citekey order="10">Milliken_Research_Associates</bcf:citekey>
-    <bcf:citekey order="11">Jacobson_2016</bcf:citekey>
-    <bcf:citekey order="12">Racelogic_2015</bcf:citekey>
-    <bcf:citekey order="13">MMM</bcf:citekey>
-    <bcf:citekey order="14">inproceedings</bcf:citekey>
-    <bcf:citekey order="15">pacejka</bcf:citekey>
-    <bcf:citekey order="16">Milliken_Research_Associates</bcf:citekey>
+    <bcf:citekey order="11">PJRC</bcf:citekey>
+    <bcf:citekey order="12">PJRC</bcf:citekey>
+    <bcf:citekey order="13">FTDIChip</bcf:citekey>
+    <bcf:citekey order="14">FTDIChip</bcf:citekey>
+    <bcf:citekey order="15">BOSCH</bcf:citekey>
+    <bcf:citekey order="16">BOSCH</bcf:citekey>
+    <bcf:citekey order="17">TI</bcf:citekey>
+    <bcf:citekey order="18">Jacobson_2016</bcf:citekey>
+    <bcf:citekey order="19">Racelogic_2015</bcf:citekey>
+    <bcf:citekey order="20">MMM</bcf:citekey>
+    <bcf:citekey order="21">inproceedings</bcf:citekey>
+    <bcf:citekey order="22">pacejka</bcf:citekey>
+    <bcf:citekey order="23">Milliken_Research_Associates</bcf:citekey>
+    <bcf:citekey order="24">PJRC</bcf:citekey>
+    <bcf:citekey order="25">FTDIChip</bcf:citekey>
+    <bcf:citekey order="26">BOSCH</bcf:citekey>
+    <bcf:citekey order="27">TI</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -189,6 +189,50 @@
       \verb https://www.millikenresearch.com/mmmoutput.html
       \endverb
     \endentry
+    \entry{PJRC}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{journaltitle}{PJRC}
+      \verb{urlraw}
+      \verb https://www.pjrc.com/store/teensy40.html
+      \endverb
+      \verb{url}
+      \verb https://www.pjrc.com/store/teensy40.html
+      \endverb
+    \endentry
+    \entry{FTDIChip}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{journaltitle}{FTDIChip}
+      \verb{urlraw}
+      \verb https://ftdichip.com/wp-content/uploads/2020/08/DS_FT232R.pdf
+      \endverb
+      \verb{url}
+      \verb https://ftdichip.com/wp-content/uploads/2020/08/DS_FT232R.pdf
+      \endverb
+    \endentry
+    \entry{BOSCH}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{journaltitle}{BNO055 Intelligent 9-axis absolute orientation sensor}
+      \verb{urlraw}
+      \verb https://cdn-shop.adafruit.com/datasheets/BST_BNO055_DS000_12.pdf
+      \endverb
+      \verb{url}
+      \verb https://cdn-shop.adafruit.com/datasheets/BST_BNO055_DS000_12.pdf
+      \endverb
+    \endentry
+    \entry{TI}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{journaltitle}{Texas Instruments}
+      \verb{urlraw}
+      \verb https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn65hvd233
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn65hvd233
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
